@@ -1,0 +1,20 @@
+git --version
+
+git config --global user.name "https://github.com/Sadiashabbir1914/testrepo"
+git config --global user.email "aduu1914@gmail.com"
+
+cd path to directory
+git init  (for initializing git)
+git status (checking for untracked files)
+
+git add . (adding files to staging area)
+
+git commit -m "file info" (commiting files)
+
+git log (use only when working in git for checking commits or logs)
+      Now we r going to connect git to github.
+
+git remote add origin https://github.com/Sadiashabbir1914/testrepo.git   (adding origin to github)
+git branch -m main   (telling branch to github)
+
+git push origin main  (pushing code to github from local server or computer)

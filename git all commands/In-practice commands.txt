@@ -1,0 +1,12 @@
+after adding paths and initiating git and github, practice commands will be:
+
+git pull origin main  (pulling or extracting already existing files to 
+your local computer from github to avoid any conflicts)
+
+git status
+
+git add .
+
+git commit -m "file info"
+
+git push origin main
