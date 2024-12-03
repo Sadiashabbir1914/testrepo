@@ -1,36 +1,35 @@
 header{
-  background-color: #666;
-  text-align: justify-all;
-  font-size: 20px;
-  color: white;
- }
- .topnav{
-  overflow: hidden;
-  background-color: #666;
-  padding: 20px;
-  margin: auto;
- }
-
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #f1f1f1;
-  height: 300px;
+    background-color: rgb(238, 227, 210);
+}
+.navbar a{
+    padding: 15px 15px;
+    text-decoration: none;
+}
+.navbar{
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    padding-top: 30px;
 }
 
-footer{
-  background-color: #666;
-  text-align: justify-all;
-  size: 20px;
-  font-size: 20px;
-  color: white;
- }
- #p1{
-  text-align: right;
- }
- .c1{
-    text-align: justify-all;
-    padding-right: 200px;
-    size-adjust: 20%;
- }
+article {
+    float: right;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px; 
+}
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  footer{
+    background-color: rgb(238, 227, 210);
+  }
+  address{
+    float: right;
+    padding-top: 10px;
+  }
+  
